@@ -4,7 +4,7 @@
     "description": "Effective Solutions (Pvt) Ltd. SMS Test Bundle",
     "keywords": ["SMS","SMSTest"],
     "homepage": "http://effectivesolutions.lk/",
-    "license": "None",
+    "license": "MIT",
     "authors": [
         {
             "name": "Charith Prasanga",
@@ -16,6 +16,6 @@
         "php": ">=5.3.0"
     },
     "autoload": {
-        "files": ["EffectiveSolutionsSMSTestBundle.php"]
+        "psr-4": { "EffectiveSolutions\\SMSTestBundle\\": "" }
     }
 }

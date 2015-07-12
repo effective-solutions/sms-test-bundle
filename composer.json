@@ -1,0 +1,21 @@
+{
+    "name": "effective-solutions/sms-test-bundle",
+    "type": "library",
+    "description": "Effective Solutions (Pvt) Ltd. SMS Test Bundle",
+    "keywords": ["SMS","SMSTest"],
+    "homepage": "http://effectivesolutions.lk/",
+    "license": "None",
+    "authors": [
+        {
+            "name": "Charith Prasanga",
+            "email": "charithprsg@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "files": ["EffectiveSolutionsSMSTestBundle"]
+    }
+}

@@ -1,3 +1,7 @@
 effective_solutions_sms_test_homepage:
     path:     /view_name
     defaults: { _controller: EffectiveSolutionsSMSTestBundle:Default:index }
+
+effective_solutions_sms_test_charith:
+    path:     /view_charith
+    defaults: { _controller: EffectiveSolutionsSMSTestBundle:Default:charith }

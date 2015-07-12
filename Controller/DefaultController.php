@@ -10,4 +10,9 @@ class DefaultController extends Controller
     {
         return $this->render('EffectiveSolutionsSMSTestBundle:Default:index.html.twig');
     }
+
+    public function charithAction()
+    {
+        return $this->render('EffectiveSolutionsSMSTestBundle:Default:charith.html.twig');
+    }
 }
